@@ -1,0 +1,31 @@
+nav {
+  background-color: rgba(22, 22, 23, 0.8);
+  backdrop-filter: blur(10px);
+  padding-left: 1rem;
+  width: 100vw;
+  position: fixed;
+
+  svg {
+    fill: white;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .right-menu {
+      display: flex;
+      align-items: center;
+      margin-right: 1rem;
+      svg {
+        margin: 0rem 1rem;
+      }
+    }
+  }
+}
